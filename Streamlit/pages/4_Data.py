@@ -1,10 +1,10 @@
 import streamlit as st
 from PIL import Image
 
-NBA_site_img = Image.open("images\Screenshot 2025-05-12 000858.png")
-Json_img = Image.open("images\Screenshot 2025-05-12 001704.png")
-Max_min_img = Image.open("images\Screenshot 2025-05-12 010648.png")
-Encode_function_img = Image.open("images\Screenshot 2025-05-12 010154.png")
+NBA_site_img = Image.open("images/Screenshot 2025-05-12 000858.png")
+Json_img = Image.open("images/Screenshot 2025-05-12 001704.png")
+Max_min_img = Image.open("images/Screenshot 2025-05-12 010648.png")
+Encode_function_img = Image.open("images/Screenshot 2025-05-12 010154.png")
 
 st.title("Data")
 section = st.radio("Show section",("Overview","Limitations","Encoding"))
