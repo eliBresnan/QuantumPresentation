@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
 
-image_1 = Image.open("images/cool_basketball_photo.webp")
-image_2 = Image.open("images/hq720.jpg")
+image_1 = Image.open("Streamlit/images/cool_basketball_photo.webp")
+image_2 = Image.open("Streamlit/images/hq720.jpg")
 
 st.title("Project Overview")
 st.markdown("---")
