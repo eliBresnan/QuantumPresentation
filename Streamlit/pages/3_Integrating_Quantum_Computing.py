@@ -4,8 +4,8 @@ from PIL import Image
 from images import QLSTM_code
 
 QLSTM_diagram = Image.open("Streamlit/images/Screenshot 2025-05-01 125905.png")
-CLSTM_diagram = Image.open("Streamlit\images\Screenshot 2025-05-01 125854.png")
-Circuit_diagram = Image.open("Streamlit\images\Screenshot 2025-05-01 130335.png")
+CLSTM_diagram = Image.open("Streamlit/images/Screenshot 2025-05-01 125854.png")
+Circuit_diagram = Image.open("Streamlit/images/Screenshot 2025-05-01 130335.png")
 
 
 st.title("Quantum Circuitry in an LSTM")
