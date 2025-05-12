@@ -33,7 +33,7 @@ st.write("""
         - That means 240 parameters must be shifted per input...
         - ... which means the cell has to be run 480 times, simulating 2880 quantum circuits for just one time step
          """)
-st.image("images\Main.py - Quantum - Visual Studio Code 2025-05-12 04-14-02 (online-video-cutter.com).gif")
+st.image("Streamlit/images/Main.py - Quantum - Visual Studio Code 2025-05-12 04-14-02 (online-video-cutter.com).gif")
 st.write("""
         - As you can see, it takes about a minute to optimize just one qubit
         - So if I wanted to predict the outcome of the timberwolves game tonight using the past season as training data...
