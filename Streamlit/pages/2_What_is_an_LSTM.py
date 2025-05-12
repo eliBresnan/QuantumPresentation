@@ -6,7 +6,7 @@ from images import CLSTM_code
 
 dir_path = os.getcwd()
 CLSTM_diagram = Image.open("Streamlit/images/Screenshot 2025-05-01 125746.png")
-RNN_diagram = Image.open(os.path.join(dir_path,"images","Screenshot 2025-05-12 015717.png"))
+RNN_diagram = Image.open("Streamlit/images/Screenshot 2025-05-12 015717.png")
 
 
 st.header("Long-Short Term Memory")
